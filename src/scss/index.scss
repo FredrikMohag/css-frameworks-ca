@@ -1,0 +1,98 @@
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  background-color: #d1d1d6 !important;
+}
+header {
+  min-height: calc(100vh - 20px) !important;
+  background-color: #d1d1d6 !important;
+}
+
+nav {
+  background-color: #2b2b2b;
+}
+
+.nav-link,
+.nav-link btn {
+  color: #39ff14;
+}
+h1,
+h2 {
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.text-center {
+  font-size: 18px;
+  font-weight: Semi Bold;
+}
+.bi-arrow-return-right {
+  font-size: 24px !important;
+}
+.border {
+  border: 2px solid #2b2b2b !important;
+}
+.border-bottom {
+  border-bottom: 2px solid #2b2b2b !important;
+}
+.btn,
+.form-control,
+.form-check-input {
+  border: 2px solid #2b2b2b;
+}
+.form-control,
+.form-check-input {
+  background-color: #d1d1d6;
+}
+.bi-arrow-right {
+  font-size: 24px;
+}
+.profile-image {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile-follow-button {
+  color: #39ff14;
+  border: none;
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: #f8f8f876;
+  color: #39ff14;
+}
+.text-container {
+  width: 300px;
+}
+
+.card {
+  background-color: #d9d9d9;
+}
+.bi-chat-fill,
+.bi-heart-fill {
+  color: #39ff14;
+}
+.search-bar {
+  width: auto;
+}
+.form-control {
+  font-size: 0.8rem;
+  height: 24px;
+  width: 200px;
+}
+.navbar {
+  background-color: transparent;
+}

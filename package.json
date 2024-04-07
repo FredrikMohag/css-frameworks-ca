@@ -1,0 +1,39 @@
+{
+  "name": "css-frameworks-ca",
+  "version": "0.0.1",
+  "description": "A social media app for css-frameworks-ca",
+  "scripts": {
+    "test": "echo \"This is my CA delivery in css-frameworks\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "live": "live-server",
+    "watch": "sass --watch src/scss:dist/css",
+    "dev": "npm-run-all --parallel watch live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredrikmohag/css-frameworks-ca.git"
+  },
+  "keywords": [
+    "CSS",
+    "CSS",
+    "Frameworks",
+    "Bootstrap",
+    "SCSS",
+    "SASS"
+  ],
+  "author": "Fredrik Mohag Håkansson <frehak54268@stud.noroff.no>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FredrikMohag/css-frameworks-ca.git"
+  },
+  "homepage": "https://github.com/FREDRIKMOHAG/css-frameworks-ca#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.74.1"
+  }
+}
