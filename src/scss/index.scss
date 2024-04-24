@@ -15,7 +15,7 @@ nav {
 
 .nav-link,
 .nav-link btn {
-  color: #e5ebe4;
+  color: #39ff14;
 }
 h1,
 h2 {
@@ -90,4 +90,9 @@ a {
 }
 .form-control {
   font-size: 0.8rem;
-  height: 24p
+  height: 24px;
+  width: 200px;
+}
+.navbar {
+  background-color: transparent;
+}
