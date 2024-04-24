@@ -1,5 +1,6 @@
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 @import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
 body {
   background-color: #d1d1d6 !important;
 }
@@ -89,9 +90,4 @@ a {
 }
 .form-control {
   font-size: 0.8rem;
-  height: 24px;
-  width: 200px;
-}
-.navbar {
-  background-color: transparent;
-}
+  height: 24p

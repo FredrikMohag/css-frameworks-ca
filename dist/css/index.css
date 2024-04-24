@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
@@ -520,8 +519,11 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+  -webkit-appearance: button; /* For Safari and older Chrome/Firefox versions */
+  -moz-appearance: button; /* For older Firefox versions */
+  appearance: button; /* Standard: For modern browsers */
 }
+
 button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -577,8 +579,10 @@ legend + * {
 }
 
 [type="search"] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
+  -webkit-appearance: textfield; /* For WebKit browsers to standardize appearance */
+  -moz-appearance: textfield; /* For Firefox browsers */
+  appearance: textfield; /* Standard property for modern browsers */
+  outline-offset: -2px; /* Controls the outline offset when the element is focused */
 }
 
 /* rtl:raw:
@@ -598,8 +602,10 @@ legend + * {
 }
 
 ::file-selector-button {
-  font: inherit;
-  -webkit-appearance: button;
+  font: inherit; /* Ensures the button inherits the font settings from its parent */
+  -webkit-appearance: button; /* Ensures consistent appearance in WebKit browsers */
+  -moz-appearance: button; /* For older Mozilla browsers */
+  appearance: button; /* Standard property to ensure the button looks consistent across modern browsers */
 }
 
 output {
