@@ -1,5 +1,4 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
-@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
 body {
   background-color: #d1d1d6 !important;
@@ -28,6 +27,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 .text-center {
   font-size: 18px;
   font-weight: Semi Bold;
@@ -49,6 +49,10 @@ a {
 .form-control,
 .form-check-input {
   background-color: #d1d1d6;
+}
+.form-control:focus {
+  background-color: #39ff14;
+  box-shadow: none;
 }
 .bi-arrow-right {
   font-size: 24px;
@@ -80,6 +84,11 @@ a {
 
 .card {
   background-color: #d9d9d9;
+  width: 430px;
+}
+.row {
+  display: flex;
+  gap: 70px;
 }
 .bi-chat-fill,
 .bi-heart-fill {
@@ -95,4 +104,31 @@ a {
 }
 .navbar {
   background-color: transparent;
+}
+.well-social-post .action-links {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.well-social-post .action-link {
+  margin-right: 10px;
+}
+
+.well-social-post .form-control {
+  width: 100%;
+  min-height: 100px;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.well-social-post .icon-actions {
+  display: flex;
+  align-items: center;
+}
+
+.well-social-post .glyphicon-user,
+.well-social-post .glyphicon-map-marker {
+  margin-left: 10px;
 }
